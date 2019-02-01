@@ -1,0 +1,52 @@
+
+body {
+  color: #212529;
+}
+
+.main {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #212529;
+}
+
+.g{
+  padding: 20px 60px 20px 60px;
+}
+
+.row {
+  padding-bottom: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+img.port {
+  border-radius: 10px;
+}
+
+i {
+  font-size: 80px;
+}
+
+h1 {
+  size: 50px;
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+
+.revs {
+  padding-top: 30px;
+  margin: 50px;
+  font-size: 40px;
+}
+
+.ab {
+  font-size: 20px;
+  text-align: left;
+  margin: 50px;
+}

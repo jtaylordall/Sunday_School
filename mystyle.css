@@ -9,14 +9,14 @@ body {
   color: #212529;
 }
 
-.g{
-  padding: 20px 60px 20px 60px;
+.top_adjust {
+  padding: 2.5em;
 }
 
 .row {
   padding-bottom: 20px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 img.port {
@@ -28,15 +28,18 @@ i {
 }
 
 h1 {
-  size: 50px;
+  padding-bottom: 0em;
+  padding-top: .5em;
+  font-size: 5em;
   text-align: center;
 
 }
 
 h2 {
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 100px;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  font-size: 4em;
 }
 
 .revs {
@@ -47,6 +50,39 @@ h2 {
 
 .ab {
   font-size: 20px;
-  text-align: left;
+  text-align: lem;
   margin: 50px;
 }
+
+p {
+  word-wrap: normal;
+  font-size: 1.5em;
+  margin: inherit;
+}
+
+hr {
+  padding-bottom: 2em;
+}
+
+.segment {
+  padding: 10em;
+}
+
+.title {
+  padding: 1em;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

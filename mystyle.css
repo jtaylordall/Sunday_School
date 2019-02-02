@@ -19,12 +19,8 @@ body {
   padding-right: 80px;
 }
 
-img.port {
+.port {
   border-radius: 10px;
-}
-
-i {
-  font-size: 80px;
 }
 
 h1 {
@@ -60,6 +56,14 @@ p {
   margin: inherit;
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 hr {
   padding-bottom: 2em;
 }
@@ -71,6 +75,11 @@ hr {
 .title {
   padding: 1em;
 }
+.home_page {
+  text-align: right;
+  font-size: 2em;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
